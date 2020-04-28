@@ -6,6 +6,6 @@ type Puzzle struct {
 	Score float32
 	Dad   *Puzzle
 	Side  int
-	X 	  int
-	Y	  int
+	X     int
+	Y     int
 }
