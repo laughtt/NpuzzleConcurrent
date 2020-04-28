@@ -164,9 +164,7 @@ func (s *Solver) addPuzzles(p *Puzzle) {
 		if a != nil {
 			s.Open++
 			s.Max++
-
-			s.Pq.Push(a, -float32(a.Score))
-
+			s.Pq.Push(a, -float32(a.Score+a.Depth))
 		}
 	}
 }
