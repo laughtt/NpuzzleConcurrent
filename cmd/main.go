@@ -58,5 +58,6 @@ func main() {
 	printMapaSquare(startPuzzle)
 	fmt.Println("\n")
 	printMapaSquare(endPuzzle)
+	fmt.Println("\n")
 	executeOrder66(startPuzzle, endPuzzle, *heuristic)
 }
